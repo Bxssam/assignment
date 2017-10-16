@@ -67,3 +67,12 @@ body {
     background-color:gray;
     color:#000;
     }
+
+    #hom::before{
+        content: url(images/home.png);
+    }
+
+    #lin::before{
+        content: url(images/up.png);
+        padding-right: 5px;
+    }
