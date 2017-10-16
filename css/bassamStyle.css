@@ -72,7 +72,7 @@ body {
         content: url(images/home.png);
     }
 
-    #lin::before{
+    .lin::before{
         content: url(images/up.png);
         padding-right: 5px;
     }
