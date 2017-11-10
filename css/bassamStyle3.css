@@ -1,13 +1,15 @@
 body {
-    background-color:#c2c2c2;
+    background-color:#F2F2F4;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
     font-weight:700;
     }
     
-    .bodd1 {
+    #bodd1 {
     background-color:#FFF;
     width:50%;
     padding-left:20px;
     margin:0 auto;
+    padding-bottom: 20px;
     }
     
     h1 {
@@ -26,14 +28,32 @@ body {
     font-size: 20px;
     }
     
-    .ip1:hover,#bot1:hover {
+    .ip1:hover {
     background-color:#b5abca;
     color:#FFF;
     }
     
     #bot1 {
-    color:#a1a1a1;
+    border-radius: 6px;
+    color:#fff;
     background-color:#643174;
     margin-bottom:20px;
     padding:10px 2%;
+    }
+
+    #sp {
+    background-color: #F24E54;
+    width: 97%;
+    color: #fff;
+    list-style-type: none;
+    padding: 5px 0px 5px 5px;
+    display: none;
+    }
+
+    #tmbf{
+        display: none;
+    }
+
+    #utmf{
+        display: none;
     }

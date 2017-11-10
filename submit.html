@@ -6,18 +6,23 @@
         <link rel="stylesheet" href="css/bassamStyle3.css"> 
     </head>
     <body>
-        <div class="bodd1">
+        <script type="text/javascript" src="js/script3.js"></script>
+        <div id="bodd1">
         <h1>Submit</h1>
-        <form method="post" action="">
+        <form method="post" onsubmit="return validate()">
             <p><label>Title:</label></p>
-            <input class="ip1" name = "name" type = "text" maxlength="30">
+            <input class="ip1" id="txe" name = "name" type = "text" maxlength="30">
             <p><label>URL:</label></p>
-            <input class="ip1" name = "url" type = "text" maxlength="30">
+            <input class="ip1" id="ure" name = "url" type = "text" maxlength="30">
             <p id="orr">or</p>
             <p><label>Text:</label></p>
-            <textarea class="ip1" name = "text" rows="3" cols="40"></textarea>
+            <textarea class="ip1" id="tfe" name = "text" rows="3" cols="40"></textarea>
             <p><input id="bot1" type="submit" value="Submit"></p>
         </form>
+        <div id="sp">
+            <p id="tmbf">Title must be filled out</p>
+            <p id="utmf">Either the url or text field must be filled out</p>
+        </div>
         </div>
     </body>
 </html>

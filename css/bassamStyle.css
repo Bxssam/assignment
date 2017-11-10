@@ -1,78 +1,96 @@
 body {
-    background-color:gray;
-    width:90%;
-    margin:auto;
-    }
-    
-    .unav {
-    font-size:20px;
-    margin-top:10px;
-    background-color:purple;
-    padding:30px 20px;
-    }
-    
-    a:hover {
-    color:#FFF;
-    }
-    
-    a {
-    color:#000;
-    text-decoration:none;
-    font-weight:700;
-    padding-left:20px;
-    padding-right:20px;
-    }
-    
-    h4 {
-    display:inline;
-    padding-left:40px;
-    padding-bottom:20px;
-    padding-right:10px;
-    }
-    
-    .medbody1 {
-    background-color:#e9e9d3;
-    }
-    
-    #foot1 {
-    background-color:#e9e9d3;
-    text-align:center;
-    }
-    
-    li {
-    padding-top:10px;
-    margin-bottom:10px;
-    width:97%;
-    list-style-type:none;
-    border-bottom:solid #3d3d3d;
-    font-weight:700;
-    }
-    
-    li:hover {
-    background-color:gray;
-    }
-    
-    .medul {
-    border-bottom:none;
-    font-weight:400;
-    }
-    
-    .unav2 {
-    color:#FFF;
-    padding-top:20px;
-    padding-bottom:20px;
-    }
-    
-    .unav2:hover {
-    background-color:gray;
-    color:#000;
-    }
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    background-color: #FAFAFA;
+    width: 70%;
+    margin: 0 auto;
+}
 
-    #hom::before{
-        content: url(images/home.png);
-    }
+#unav {
+    font-size: 20px;
+    margin-top: 10px;
+    background-color: #FE6624;
+    padding: 30px 0px;
+}
 
-    .lin::before{
-        content: url(images/up.png);
-        padding-right: 5px;
-    }
+#unav a {
+    color: #FFF;
+    padding: 30px 20px;
+}
+
+#unav a:hover {
+    background-color: #FFF;
+    color: #000;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h4 {
+    display: inline;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+}
+
+#medbody1 {
+    background-color: #F6F6F4;
+}
+
+#foot1 {
+    background-color: #F6F6F4;
+    text-align: center;
+}
+
+li {
+    padding-top: 10px;
+    margin-bottom: 10px;
+    
+    list-style-type: none;
+    border-bottom: none;
+    font-weight: 600;
+}
+
+li:hover {
+    background-color: rgb(190, 190, 190);
+}
+
+.medul {
+    border-bottom: solid lightgray;
+    padding-right: 25px;
+    font-weight: 400;
+}
+
+.medul p{
+    display: inline;
+    padding: 10px;
+}
+
+#hom {
+    background-color: #828284;
+}
+
+#hom::before {
+    content: "\01F3E0";
+}
+
+.lin::before {
+    content: "︿";
+    padding-right: 5px;
+    font-size: 17px;
+}
+#ull {
+    padding-left: 0px;
+}
+
+#date{
+    display: inline;
+    color: gray;
+}
+
+#sortD{
+    text-align: right;
+}
