@@ -78,7 +78,7 @@ function writer(arr) {
         txt += `<li class="lia">
         <a class="lin" href="` + arr[i].url + `">` + arr[i].title + `</a>
         <ul>
-            <li class="medul"><p>` + arr[i].score + ` likes</p>|<p>` + da.toLocaleFormat() + `</p>|<p>` + arr[i].descendants + ` comments</p></li>
+            <li class="medul"><p>` + arr[i].score + ` likes</p>|<p>` + da.toUTCString() + `</p>|<p>` + arr[i].descendants + ` comments</p></li>
         </ul>
     </li>`
     }
