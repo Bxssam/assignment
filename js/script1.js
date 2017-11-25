@@ -15,7 +15,7 @@ window.onload = function () {
 
         }
     }
-    xhttp.open("GET", "https://hacker-news.firebaseio.com/v0/beststories.json?print=pretty", true);
+    xhttp.open("GET", "https://hacker-news.firebaseio.com/v0/topstories.json?print=pretty", true);
     xhttp.send();
 
 }
